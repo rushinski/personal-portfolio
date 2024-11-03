@@ -1,0 +1,32 @@
+/* Whole page changes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  background-color: white;
+  width: 75%;
+  height: 80%;
+  border: solid;
+  margin: auto;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.header {
+  text-align: center;
+  font-size: 25px;
+  margin: 70px 0px 15px 0px;
+}
+
+.container {
+  padding: 20px;
+  border: solid;
+}
