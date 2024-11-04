@@ -28,7 +28,6 @@ body {
 
 .container {
   padding: 20px;
-  display: flex;
 }
 
 .split {
@@ -39,6 +38,10 @@ body {
 
 .five-px-below {
   margin-bottom: 5px;
+}
+
+.ten-px-below {
+  margin-bottom: 10px;
 }
 
 .image-fit-me {
@@ -60,10 +63,12 @@ body {
   font-size: 30px;
 }
 
-.p-resize-about {
+.p-resize-one {
   font-size: 20px;
-  padding-right: 10px;
-  margin-bottom: 40px;
+}
+
+.p-resize-two {
+  font-size: 15px;
 }
 
 .li-resize-about {
@@ -75,6 +80,60 @@ body {
   display: flex;
 }
 
-.center {
+.about {
+  padding-right: 10px;
+  margin-bottom: 40px;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.spacing {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.icon-medium {
+  font-size: 50px;
+}
+
+.special-center {
+  margin: 0px auto 5px auto;
+}
+
+.def-len {
+  width: 150px;
+}
+
+.git-link a {
+  color: black;
+}
+
+.git-link a:hover {
+  color: grey;
+}
+
+.margin-auto {
   margin: auto;
+}
+
+.projects-display {
+  background-color: #f0f0f0;
+}
+
+.box-small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 20px;
 }
